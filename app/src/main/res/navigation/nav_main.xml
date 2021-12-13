@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/fragmentDiagram">
+
+    <fragment
+        android:id="@+id/fragmentDiagram"
+        android:name="hu.nagyi.incomeexpensesecondweekwork.FragmentDiagram"
+        android:label="FragmentDiagram">
+        <action
+            android:id="@+id/action_fragmentDiagram_to_fragmentEditValue"
+            app:destination="@id/fragmentEditValue" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEditValue"
+        android:name="hu.nagyi.incomeexpensesecondweekwork.FragmentEditValue"
+        android:label="FragmentEditValue" />
+</navigation>

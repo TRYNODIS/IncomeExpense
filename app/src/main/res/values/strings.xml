@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IncomeExpenseSecondWeekWork</string>
+    <string name="addExpenseValue">Add expense value</string>
+    <string name="save">Save</string>
+    <string name="addIncomeValue">Add income value</string>
+    <string name="selectedPosition">Selected position: %1d</string>
+    <string name="edit">Edit</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="addedValue">Added value: %1d</string>
+
+    <string-array name="tab_names">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+</resources>
